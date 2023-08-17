@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Dark-theme-Color1{
+    background: rgb(1,32, 52);
+};
+
+.Dark-theme-Color2{
+    background: hsla(219, 34%, 16%,1)
+ };

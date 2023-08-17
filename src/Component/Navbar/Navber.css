@@ -1,0 +1,67 @@
+.bg-navber {
+  background: rgb(1, 32, 52);
+  color: rgb(255, 255, 255);
+  align-items: start;
+  border-bottom: 1px solid rgb(58, 54, 54);
+
+}
+
+.bgGap{
+  background: rgb(1, 32, 52);
+}
+
+.gap-pointBg {
+  background: hsla(219, 34%, 16%,1)
+}
+
+.bg-navberSideber {
+  width: 100px;
+  transition: width .6s ease-in-out;
+  border-right: 1px solid rgb(60, 63, 65);
+}
+
+.bg-navberSideber:hover {
+  width: 150px;
+}
+.nav-item {
+  margin: 30px 30px 0;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  transition: background-color .4s ease-in-out, color .8s ease-in-out;
+  padding: 15px 10px;
+  border: .5px solid rgb(82, 82, 84);
+  background: rgb(2, 43, 70);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 23px;
+  width: 45px;
+  height: 45px;
+  transition: width .6s ease-in-out;
+
+
+}
+
+.icon {
+  display: inline-block;
+}
+
+.text {
+  display: none;
+}
+
+.nav-item:hover .text {
+  display: inline-block;
+}
+
+.nav-item:hover {
+  width: 100px;
+  padding: 10px 10px;
+  border: 1px solid #2d563a;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  background: rgb(2, 43, 70);
+  color: #dbffda;
+  font-weight: 500;
+}

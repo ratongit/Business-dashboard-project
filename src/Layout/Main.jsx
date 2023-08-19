@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "../Component/Navbar/Navbar";
+import './Main.css'
 
 const Main = () => {
     return (
-        <div >
+        <div style={{backgroundColor:'hsla(219, 34%, 18%,1)'}} className="dkm">
             <Outlet></Outlet>
         </div>
     );
